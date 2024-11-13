@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Sickness Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="background-blur"></div>
+        <h1>Tea Leaf Disease Detector</h1>
+        <div id="drop-area">
+            <p>Drag and drop an image here, or click to select a file</p>
+            <input type="file" id="fileElem" accept="image/*" onchange="handleFiles(this.files)">
+        </div>
+        <div id="gallery"></div>
+        <div id="result"></div>
+        <button type="reset" id="rst"><b>Reset</b></button>
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
