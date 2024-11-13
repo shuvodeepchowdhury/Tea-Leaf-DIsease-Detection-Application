@@ -26,3 +26,5 @@ Upload images of tea leaves and receive instant disease classification results.
 Accurate Predictions: Uses a trained CNN model to identify common tea leaf diseases with high accuracy.
 User-Friendly Interface: Designed with simplicity in mind, making it easy for users to interact with the application.
 Scalability: Can be deployed on cloud platforms like Heroku or AWS for wider accessibility.
+
+please leave a comment if this project helps you 😊
